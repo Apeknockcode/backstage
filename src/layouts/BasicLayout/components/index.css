@@ -1,0 +1,52 @@
+.my-sideMenu-sider {
+  background: transparent;
+}
+.my-sideMenu-sider_logo {
+  margin: 16px 0;
+  padding: 0 16px;
+  height: 23px;
+  overflow: hidden;
+}
+.my-sideMenu-sider_menu {
+  flex: 1 1 0%;
+  height: calc(100% - 55px);
+  overflow: hidden auto;
+  background: transparent !important;
+  padding: 14px 0px 14px 10px;
+  box-sizing: border-box;
+}
+.my-sideMenu-sider_menu .ant-menu-item::after {
+  opacity: 0;
+}
+.my-sideMenu-sider_menu .ant-menu-item-selected {
+  background-color: #fff !important;
+  box-shadow: 0 20px 27px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  font-weight: bold;
+}
+.my-sideMenu-sider_menu .ant-menu-item-selected::after {
+  border-right: none;
+}
+.my-sideMenu-sider_menu .ant-menu-submenu-open .ant-menu-inline {
+  background: transparent;
+}
+.my-sideMenu-sider_menu .ant-menu-submenu-open .ant-menu-inline .ant-menu-item {
+  padding-left: 23px !important;
+}
+.my-sideMenu-sider_footer {
+  border-top: 1px solid #f0f0f0;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 40px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+}
+.my-sideMenu-sider_footer .trigger:hover {
+  color: #3860f4;
+}
+.my-sideMenu-sider .sideMenu-icon {
+  vertical-align: 1px;
+}
