@@ -9,7 +9,8 @@ import App from './App.vue';
 import { router } from './router';
 import { store } from './store';
 import { setupGlobDirectives } from './directives';
-import './router/permission';
+
+import './router/permission'; // 路由权限
 // import { setupComponents } from './plugin';
 
 const app = createApp(App);
